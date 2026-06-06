@@ -1,0 +1,10 @@
+- name: "Mike"
+  occupation: "Doctor"
+
+- name: "Jackson"
+  occupation: "Teacher"
+
+- name: "Steve"
+  occupation: "Enginner"
+
+ # data file only have three kinds of format , JSON、YAML、CSV

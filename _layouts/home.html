@@ -1,0 +1,52 @@
+
+
+{% for post in site.posts %}
+
+    <li><a href="{{ post.url }}">{{ post.title }}</a> </li>
+
+{% endfor %}
+
+<!--
+{% for post in site.posts%}
+
+    {{ post.title }} <br>
+
+     {{post.url}} <br>
+
+{% endfor %}
+
+    for is looping through all posts
+-->
+
+<!-- {{ site.data.people }} -->
+
+<!--
+{% for person in site.data.people %}
+
+  {{person.name}}, {{person.occupation}} <br>
+
+{% endfor%}
+-->
+<!--{% for file in site.static_files %}
+
+    {{file.name}} <br>
+
+{% endfor %}
+-->
+
+<!-- file:name/basename/extname/path -->
+
+
+<!--
+
+  {% for file in site.static_files %}
+
+    {% if file.image %}
+
+      <img src="{{file.path}}" alt="{{file.name}}">
+
+    {% endif %}
+
+{% endfor %}
+
+-->
