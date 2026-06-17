@@ -41,7 +41,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      title: "My Title"
+  
   -
     scope:
       path: "assets/img"
