@@ -2,17 +2,14 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>{{ site.title }}</title>  <!-- The Hightest levek of layouts -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   </head>
   <body>
-
-      {% include header.html color="red" %}
-      {{content}}
-
-      <br> Wrapper <br>
-
-        {% include footer.html %}
-
-
+    {% include header.html color="red" %}
+    <main>
+      {{ content }}
+    </main>
+    {% include footer.html %}
   </body>
 </html>

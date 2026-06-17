@@ -1,2 +1,8 @@
 <h1 style="color: {{ include.color }}">{{ site.title }}</h1>
-<hr><br>
+<nav>
+  <a href="{{ '/' | relative_url }}">Home</a>
+  <a href="{{ '/about/' | relative_url }}">About</a>
+  <a href="{{ '/contact.html' | relative_url }}">Contact</a>
+  <a href="{{ '/donate.html' | relative_url }}">Donate</a>
+</nav>
+<hr>

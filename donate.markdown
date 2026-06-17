@@ -4,4 +4,4 @@ title: Donate
 ---
 
 
-Donate to our site if you like this article. Thinks A Lot!
+Donate to our site if you like this article. Thanks a lot!

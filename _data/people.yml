@@ -5,6 +5,6 @@
   occupation: "Teacher"
 
 - name: "Steve"
-  occupation: "Enginner"
+  occupation: "Engineer"
 
  # data file only have three kinds of format , JSON、YAML、CSV
